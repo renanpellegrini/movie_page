@@ -6,16 +6,29 @@
     h3 {
         margin-top: 20px;
         margin-bottom: 24px;
+
+        @media (max-width: 768px) {
+            margin-left: 8px;
+        }
     }
     &__list {
         display: flex;
         justify-content: space-between;
+
+        @media (max-width:768px) {
+            padding-bottom: 8px;
+            overflow-x: scroll;
+        }
         
         &__item  {
             display: flex;
             flex-direction: column;
             text-align: center;
             
+            @media (max-width:768px) {
+                margin: 0 8px;
+            }
+
             img {
                 height: 150px;
                 width: 150px;
