@@ -1,0 +1,40 @@
+.favs {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    
+    h3 {
+        margin: 50px 0 24px 0;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        
+        &__item  {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            
+            img {
+                width: 200px;
+                height: 300px;
+            }
+        }
+    }
+
+    h4 {
+        margin-top: 12px;
+    }
+}
+
+.slick-prev,
+.slick-next {
+  background-color: #f00; /* Altere para a cor que desejar */
+  color: #fff; /* Altere para a cor que desejar */
+  border: none; /* Remova a borda, se preferir */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #c00; /* Altere para a cor que desejar */
+}

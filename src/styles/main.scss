@@ -1,5 +1,6 @@
 @use 'variaveis';
 @use 'cast';
+@use 'favs';
 
 * {
     padding: 0;
@@ -41,7 +42,7 @@
     align-items: center;
 
     h2 {
-        margin: 18px 0;
+        margin: 30px 0;
     }
 }
 
@@ -79,6 +80,25 @@
         margin: 0 18px;
         position: relative;
         z-index: 1; 
+
+        &__creators {
+            p {
+                font-weight: normal;
+            }
+        }
+
+        &__online {
+            display: flex;
+            align-items: center;
+            margin-top: 22px;
+            img {
+                height: 40px;
+                margin-right: 12px;
+            }
+            p {
+                font-weight: bold;
+            }
+        }
 
         h3 {
             margin: 12px 0;
